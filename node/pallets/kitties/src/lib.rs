@@ -156,6 +156,8 @@ decl_module! {
 
 			Self::deposit_event(RawEvent::Sold(owner, sender, kitty_id, kitty_price));
 		}
+
+
 	}
 }
 
